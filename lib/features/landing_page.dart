@@ -3,7 +3,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:zuri_health/features/hospital_list.dart';
 
 class LandingPage extends StatefulWidget {
-  const LandingPage({Key? key});
+  const LandingPage({super.key});
 
   @override
   State<LandingPage> createState() => _LandingPageState();
