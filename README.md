@@ -1,16 +1,30 @@
-# zuri_health
 
-A new Flutter project.
 
-## Getting Started
+<<<<<<     HOW TO RUN THE CODE >>>>>>>>>>>
 
-This project is a starting point for a Flutter application.
+After runningflutter pub get,
+Run this command in the terminal within the project directory.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+flutter packages pub run build_runner build --delete-conflicting-outputs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+This generates the cubit files. Bloc and cubit was used for state management.
+
+
+
+
+<<<<<<   LINK TO THE APK IN GOOGLE DRIVE   >>>>>>>>>>>
+
+https://drive.google.com/file/d/1XaQFXnAPRwFBL9roNb6vVxjNtJTcZg4C/view?usp=sharing 
+
+
+
+<<<<<<  LIMITATIONS   >>>>>>>>>>>
+
+Google places API was used to fetch nearby hospitals. However this API does not provide the services offered by individual hospitals.
+
+
+
+
+
