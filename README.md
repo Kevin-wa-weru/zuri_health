@@ -9,8 +9,8 @@
 
 flutter packages pub run build_runner build --delete-conflicting-outputs
 
-
 This generates the missing cubit files. Bloc and cubit was used for state management.
+
 3. Run the code on your device/emulator.
 
 
