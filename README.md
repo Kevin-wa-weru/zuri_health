@@ -2,7 +2,7 @@
 
 <<<<<<               HOW TO RUN THE CODE          >>>>>>>>>>>
 
-After runningflutter pub get,
+After running flutter pub get,
 Run the command below in the terminal within the project directory.
 
 
