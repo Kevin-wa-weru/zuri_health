@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:zuri_health/features/homepage.dart';
-import 'package:zuri_health/fff.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:zuri_health/cubit/get_hospital_details_cubit.dart';
+import 'package:zuri_health/cubit/get_hospital_list_cubit.dart';
+import 'package:zuri_health/features/landing_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MultiBlocProvider(providers: [
+    BlocProvider<GetHospitalListCubit>(
+      create: (context) => GetHospitalListCubit(),
+    ),
+    BlocProvider<GetHospitalDetailsCubit>(
+      create: (context) => GetHospitalDetailsCubit(),
+    ),
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -16,6 +25,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const HospitalServicesPage());
+        home: const LandingPage());
   }
 }
