@@ -1,15 +1,17 @@
 
 
-<<<<<<               HOW TO RUN THE CODE          >>>>>>>>>>>
+<<<<<<              STEPS ON HOW TO RUN THE CODE          >>>>>>>>>>>
 
-After running flutter pub get,
-Run the command below in the terminal within the project directory.
+1. From the terminal: Run flutter pub get
+   
+2. Run the command below in the terminal within the project directory.
 
 
 flutter packages pub run build_runner build --delete-conflicting-outputs
 
 
-This generates the cubit files. Bloc and cubit was used for state management.
+This generates the missing cubit files. Bloc and cubit was used for state management.
+3. Run the code on your device/emulator.
 
 
 
