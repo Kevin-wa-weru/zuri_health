@@ -3,7 +3,7 @@
 <<<<<<               HOW TO RUN THE CODE          >>>>>>>>>>>
 
 After runningflutter pub get,
-Run this command in the terminal within the project directory.
+Run the command below in the terminal within the project directory.
 
 
 flutter packages pub run build_runner build --delete-conflicting-outputs
