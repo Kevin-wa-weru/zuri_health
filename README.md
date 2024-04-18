@@ -1,6 +1,6 @@
 
 
-<<<<<<     HOW TO RUN THE CODE >>>>>>>>>>>
+<<<<<<               HOW TO RUN THE CODE          >>>>>>>>>>>
 
 After runningflutter pub get,
 Run this command in the terminal within the project directory.
@@ -14,13 +14,13 @@ This generates the cubit files. Bloc and cubit was used for state management.
 
 
 
-<<<<<<   LINK TO THE APK IN GOOGLE DRIVE   >>>>>>>>>>>
+<<<<<<          LINK TO THE APK IN GOOGLE DRIVE      >>>>>>>>>>>
 
 https://drive.google.com/file/d/1XaQFXnAPRwFBL9roNb6vVxjNtJTcZg4C/view?usp=sharing 
 
 
 
-<<<<<<  LIMITATIONS   >>>>>>>>>>>
+<<<<<<           LIMITATIONS                         >>>>>>>>>>>
 
 Google places API was used to fetch nearby hospitals. However this API does not provide the services offered by individual hospitals.
 
